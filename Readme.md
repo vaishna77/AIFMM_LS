@@ -14,8 +14,8 @@ It takes these inputs at run time: number of chebyshev nodes in a single Dimensi
 
 To run it input in terminal:
 
-make -f Makefile2D.mk clean
+make -f Makefile2D_find_error.mk clean
 
-make -f Makefile2D.mk
+make -f Makefile2D_find_error.mk
 
 ./testFMM2D_find_error 6 10 6 1 0 8 5
